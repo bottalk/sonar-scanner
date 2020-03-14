@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ENV SONAR_SCANNER_VERSION 4.0.0.1744
+ENV SONAR_SCANNER_VERSION 4.3.0.2102
 
 RUN apk add --update nodejs nodejs-npm zip
 
